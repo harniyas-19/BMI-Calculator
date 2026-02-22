@@ -1,0 +1,59 @@
+/* Full page center alignment */
+.bmi-bg {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea, #14dcdce9);
+}
+
+/* Card styling */
+.card {
+  background: #ffffff;
+  width: 360px;
+  padding: 35px 30px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+/* Title */
+.card h2 {
+  margin-bottom: 25px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Inputs */
+.card input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+/* Input focus */
+.card input:focus {
+  border-color: #667eea;
+}
+
+/* Button */
+.card button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  background: #667eea;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.card button:hover {
+  background: #5563c1;
+}
