@@ -1,16 +1,26 @@
-# React + Vite
+# 🧮 BMI Calculator – React Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive **BMI (Body Mass Index) Calculator** built using **React.js**.  
+This application allows users to calculate their BMI based on height and weight and displays the corresponding health category.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- Calculate BMI instantly
+- User-friendly and responsive UI
+- Displays BMI category:
+  - Underweight
+  - Normal weight
+  - Overweight
+  - Obese
+- Built using modern React concepts
+- Real-time result updates
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+<img width="646" height="558" alt="image" src="https://github.com/user-attachments/assets/9f72821c-2d8f-4af6-a9a7-dcdd9d4b7838" />
+<img width="737" height="543" alt="image" src="https://github.com/user-attachments/assets/e4ece902-e89f-4a6f-823d-f23aa85315e6" />
+<img width="585" height="534" alt="image" src="https://github.com/user-attachments/assets/e289e024-25e0-449f-9d77-77c3f24228bb" />
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📁 Project Structure
